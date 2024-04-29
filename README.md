@@ -14,15 +14,15 @@ Para iniciar el Proyecto:
         cd utn-ecommerce
         npm install
 
-Este comando instalará automáticamente todas las dependencias necesarias para ejecutar el proyecto.
+    Este comando instalará automáticamente todas las dependencias necesarias para ejecutar el proyecto.
 
-*La URL de la API se encuentra en el archivo RequestStore.js. Asegúrate de que esté configurada correctamente como https://fakestoreapi.com/products.*
+    *La URL de la API se encuentra en el archivo RequestStore.js. Asegúrate de que esté configurada correctamente como https://fakestoreapi.com/products.*
 
 3. Iniciar el Servidor de Desarrollo:
 
         npm run dev
 
-Este comando iniciará un servidor de desarrollo en http://localhost:5173, donde podrás ver la aplicación en tu navegador.
+    Este comando iniciará un servidor de desarrollo en http://localhost:5173, donde podrás ver la aplicación en tu navegador.
 
 ##### Características Principales
 
