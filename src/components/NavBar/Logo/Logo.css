@@ -1,0 +1,30 @@
+#logo {
+    display: flex;
+    height: 40px;
+}
+
+#logo>img {
+    height: 100%;
+    margin-right: 5px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 1rem 0 0;
+}
+
+h1 span {
+    height: 45%;
+    text-align: start;
+}
+
+h1 span:first-of-type {
+    color: rgb(30, 30, 30);
+}
+
+h1 span:nth-of-type(2) {
+    color: var(--colorBlue);
+}

@@ -1,0 +1,9 @@
+#accountButton {
+    margin: 5px;
+    border: none;
+    height: 38px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: var(--colorBackground);
+}

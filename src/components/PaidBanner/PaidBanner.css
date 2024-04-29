@@ -1,0 +1,32 @@
+#paidBanner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#paidBanner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 0 8px 0 8px;
+}
+
+#paidBanner p {
+    font-size: small;
+    margin-left: 8px;
+}
+
+#paidBanner span {
+    color: var(--colorBlue);
+}
+
+@media screen and (max-width: 768px) {
+    #paidBanner p {
+        margin: 5px;
+        font-size: 12px;
+    }
+}

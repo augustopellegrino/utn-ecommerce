@@ -1,0 +1,96 @@
+#postalCode {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    border: none;
+    background: none;
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+}
+
+#postalCode>span:first-of-type {
+    margin-right: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#postalCode>span:nth-of-type(2) {
+    font-size: 14px;
+}
+
+#postalCodeModal {
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    z-index: 2;
+}
+
+#postalCodeSearch {
+    width: 250px;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: .5em;
+    border: 1px solid gray;
+    background-color:var(--colorBackground);
+    position: fixed;
+    right: calc(50vw - 125px);
+    top: 25vh;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#postalCodeSearch h4 {
+    margin: 5px 5px 15px 5px;
+}
+
+#postalCodeSearch p {
+    font-size: 12px;
+    margin: 5px 5px 15px 5px;
+}
+
+#postalCodeSearch form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+#postalCodeSearch input {
+    border-radius: .5em;
+    height: 35px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+#postalCodeSearch form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+#postalCodeClose {
+    margin: 5px;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
