@@ -30,4 +30,4 @@ Para iniciar el Proyecto:
 - Productos obtenidos dinámicamente de la API Fake Store.
 - Práctica de habilidades de desarrollo frontend con React y trabajar con APIs externas para obtener datos dinámicos.
 
-![[./public/screenshots/screenshot_01.jpg]]
+![screenshot](public/screenshots/screenshot_01.jpg)
